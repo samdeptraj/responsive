@@ -1,0 +1,30 @@
+
+.desktop{
+    background-color: red;
+}
+@media screen and (max-width: 1200px){
+    /* css vùng lớn nhất 1200px */
+    .desktop{
+        color: white;
+    }
+}
+@media screen and (max-width: 992px){
+    .desktop{
+        color: gold;
+    }
+}
+.mobile{
+    background-color: gold;
+}
+@media screen and (min-width: 576px){
+    /* màn hình vùng kích thước từ 576px trở lên */
+    .mobile{
+        color: white;
+    }
+}
+@media screen and (min-width: 768px){
+    /* màn hình vùng kích thước từ 576px trở lên */
+    .mobile{
+        color: green;
+    }
+}

@@ -1,0 +1,92 @@
+/* header */
+/* nhỏ hơn 576px */
+@media screen and (max-width: 1199.98px) {
+  #carouselCyber .carousel-caption h1 {
+    font-size: 4vw;
+  }
+  #carouselCyber .carousel-caption p {
+    font-size: 1.6vw;
+    margin-bottom: 0.5em;
+  }
+  #carouselCyber .carousel-caption button {
+    font-size: 1.5vw;
+    padding: 0.8em 1em;
+  }
+  .feedback__bottom{
+    width: auto;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .navInstruction .navbar-brand p:first-child {
+    font-size: 3vw;
+  }
+  .navInstruction .navbar-brand p:last-child {
+    font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  #navbarNavDropdown .navbar-nav {
+    background-color: #eee;
+    text-align: center;
+  }
+  #navbarNavDropdown .navbar-nav .dropdown-menu {
+    background-color: #d1d1d1;
+    border: none;
+    color: black;
+    text-align: center;
+  }
+  #navbarNavDropdown .navbar-nav .dropdown-menu .dropdown-item {
+    color: black;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .header__left a {
+    display: block;
+    font-size: 2.5vw;
+  }
+  #carouselCyber .carousel-caption {
+    z-index: 0;
+  }
+  #carouselCyber .carousel-caption p {
+    line-height: 0.8rem;
+    letter-spacing: 1.1px;
+  }
+  .welcome__content > p {
+    width: auto;
+  }
+  .heading p {
+    letter-spacing: 2px;
+    font-size: 2vw;
+  }
+  .heading h2 {
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width: 460px) {
+  .feedback__bottom {
+    width: auto;
+  }
+}
+@media screen and (max-width: 287px) {
+  .header__right a{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 4vw;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #navbarNavDropdown ul .nav-item > .nav-link {
+    font-size: 12px;
+    padding: 5px;
+  }
+  #navbarNavDropdown ul .nav-item {
+    margin: 0 5px;
+  }
+  #navbarNavDropdown .dropdown-menu {
+    font-size: 12px;
+  }
+}
+/* 100% = 100vh | 100vw */
+/* % kế thừa width và height của cấp cha gần nhất */
+/* vw & vh sẽ lấy tỷ lệ cấp root (trình duyệt) */
